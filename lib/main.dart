@@ -55,6 +55,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
     final size = Size.square(MediaQuery.of(context).size.shortestSide);
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text("The Magic 8 Ball"),
